@@ -76,6 +76,8 @@ main {
         font-style: oblique;
         font-family: 'Times New Roman', Times, serif;
         color: rgb(0, 195, 255);
+        text-decoration: rgb(86, 0, 156) overline underline;
+        text-decoration-thickness: 5px;
       }            
 
 #myphoto{
