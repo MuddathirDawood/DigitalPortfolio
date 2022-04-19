@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+ }
+
+header, footer{
+                min-width: 100%;
+                height: 77px;
+                background-color: blueviolet;
+                display: inline-flex;
+              }
+
+header{
+         background: url(../images/5b129de44c25ee014c31ad03590458d8..png) no-repeat center center/cover;
+      }              
+
+#logo{
+     width: 75px;
+     height: 75px;
+   }
+   
+div{
+      margin-top: 15px;
+   }   
+
+#links{
+    display: inline-flex;
+    margin-left: 850px;
+  }
+
+.menulist{
+    list-style: none;
+    padding-left: 15px;
+    color: darkorange;
+  }
+  
+a{
+    color: darkorange;
+ }
+ 
+#menu ul #menu1{
+   position: relative;
+   top: 0;
+}
+
+.sub-menu1{
+display: none;
+position: absolute;
+left: 0;
+color: darkorange;
+} 
+
+#menu1:hover .sub-menu1{
+                   display: block;
+                   padding: 10px;
+                   background-color: rgb(198, 43, 0);
+                   border-radius: 15px;
+    }  
+   
+main {
+        min-height: 300vh;
+        background-color: rgb(171, 150, 42);
+     }
+
+#landingpage{
+               background: url(../images/5g6oiUg.png) no-repeat fixed center center/cover ;
+                height: 675px;
+               min-width: 100%;
+               text-align: center;
+               padding: 10px; 
+            }
+
+#lpage{
+        padding: 150px;
+        font-size: 100px;
+        font-style: oblique;
+        font-family: 'Times New Roman', Times, serif;
+        color: rgb(0, 195, 255);
+      }            
+
+#myphoto{
+            border-style: ridge;
+            border: 5px blue;
+        }
+
+.projects{
+            display: inline-flex;
+         }        
+      
+.Projectimg{
+              width: 900px;
+              height: 450px;
+           }
+
+sub{
+      font-size: large;
+      vertical-align: middle;
+   }
+           
+
+label{
+        width: 175px;
+        display: inline-block;
+        text-align: left;
+        margin-left: auto;
+        margin-right: auto;
+            
+     }
+        
+form{
+        text-align: auto;
+        display: inline-block;
+    }
+    
+textarea{
+            vertical-align: text-top;
+        }
+        
+#submit{
+         vertical-align: bottom;
+         width: 75px;
+         height: 30px;
+       }        
+
+li{
+    margin-left: 20px;  
+  } 
+
+footer{
+        font-size: larger;
+      }
+     
+#Copyright{
+            margin-left: 1050px;
+            text-align: right; 
+          }      
