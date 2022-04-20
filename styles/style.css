@@ -36,11 +36,7 @@ div{
     list-style: none;
     padding-left: 15px;
     color: darkorange;
-  }
-
-#projects{
-            text-decoration: none;
-         }  
+  } 
   
 a{
     color: darkorange;
@@ -183,4 +179,8 @@ footer{
 #Copyright{
             margin-left: 1050px;
             text-align: right; 
-          }      
+          }
+          
+hr{
+   border: grey 7.5px groove;
+  }          

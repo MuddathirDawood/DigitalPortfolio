@@ -15,25 +15,25 @@
                <li id="menu1" class="menulist">
                    About
                  <ul class="sub-menu1">
-                    <li><a href="#">About Me</a></li>
-                    <li><a href="#">Skills</a></li>
+                    <li><a href="#meabout">About Me</a></li>
+                    <li><a href="#skills">Skills</a></li>
                     <li><a href="#">Testemonial</a></li> 
                  </ul>
                 </li>
                
                 <li id="menu2" class="menulist">Resume
                     <ul class="sub-menu2">
-                        <li><a href="#">Education</a></li>
+                        <li><a href="#education">Education</a></li>
                         <li><a href="#">Experience</a></li>
                      </ul>
                 </li>
-               <li class="menulist"><a href="#" id="projects">Projects</a></li>
+               <li class="menulist"><a href="#projects">Projects</a></li>
 
                <li id="menu3" class="menulist">Contact
                   <ul class="sub-menu3">
-                    <li><a href="#">Form</a></li>
+                    <li><a href="#form">Form</a></li>
                     <li><a href="#">Social Media Accounts</a></li>
-                    <li><a href="#">Contact Details</a></li> 
+                    <li><a href="#contactdetails">Contact Details</a></li> 
                   </ul>
                </li>
            </ul>
@@ -48,11 +48,11 @@
               </h1>
           </div>
       </section>
-      
+      <hr>
       <section id="about">
-          <div>
+          <div id="aboutme">
              <img src="" alt="A photo of myself" id="myphoto">
-             <h2>About Me</h2>
+             <h2 id="meabout">About Me</h2>
              <p>
                 My name is Muddathir Dawood, I'm 18 years old and I am a web developer in-training that is studying at Life Choices Academy. Ever since I started doing coding in 2019, I grew a passion to do software development and when I started at Life Choices, my goal appeared, which is to become a Full Stack Developer that can do both front-end and back-end. 
              </p>
@@ -61,7 +61,7 @@
              </p>
           </div>
           <div>
-              <h3>Skills</h3>
+              <h3 id="skills">Skills</h3>
               <br>
               <ul>
                   <li>Experince in HTML5, CSS3, Github</li>
@@ -69,16 +69,20 @@
                   <li>Intensive Self-Development</li>
               </ul>
           </div>
+          <br>
       </section>
+      <hr>
       <section id="resume">
         <div>
             <h2>Resume</h2>
         </div>
         <div>
-            <h3>Education</h3>
+            <h3 id="education">Education</h3>
             <p>In 2019 when I passed to grade 10, my subject pack consisted of Life Sciences,Physical Sciences, Pure Maths and IT. Most of my coding basics and experiences originated and formed when I did I.T in Spine Road because their I.T consisted mainly of Delphi coding with the main language being Pascal and this Delphi taught me the basics for coding anything.I marticulated in Spine Road High School with a Bachelor's Pass in the year 2021.</p>
         </div>
+        <br>
       </section>
+      <hr>
       <section id="projects">
           <h2>Projects</h2>
            <div class="projects">
@@ -98,36 +102,40 @@
                 <p>This project is the basics of CSS3 that was taught to us</p>
                 <p>https://github.com/MuddathirDawood/applyingCSS3</p>
                </sub>
-           </div> 
+           </div>
+           <br> 
       </section>
+      <hr>
       <section id="contact">
+        <div>
+            <h3>Client Contact</h3>
+           <form id="form">
+               <div>
+                  <label>Email Address: </label>
+                  <input type="text" placeholder="Enter your email address">
+               </div>
+               <div>
+                  <label>Alternative Contact</label>
+                  <input type="text" placeholder="Enter your phone number">
+               </div>
+               <div>
+                  <label>Reason for contacting me: </label>
+                  <textarea cols="20" rows="5"></textarea>
+                  <button id="submit">Submit</button>
+               </div>
+           </form> 
+        </div>
           <div>
-            <h2>Contact</h2>
+            <h3 id="contactdetails">Contact</h3>
             <ul>
                 <li>Email Address: dmuddathir@gmail.com</li>
                 <li>Cell Number: 081 049 6540</li>
                 <li>GitHub Username: MuddathirDawood</li>
             </ul>
           </div>
-          <div>
-              <h3>Client Contact</h3>
-             <form>
-                 <div>
-                    <label>Email Address: </label>
-                    <input type="text" placeholder="Enter your email address">
-                 </div>
-                 <div>
-                    <label>Alternative Contact</label>
-                    <input type="text" placeholder="Enter your phone number">
-                 </div>
-                 <div>
-                    <label>Reason for contacting me: </label>
-                    <textarea cols="20" rows="5"></textarea>
-                    <button id="submit">Submit</button>
-                 </div>
-             </form> 
-          </div>
+          <br>
       </section>
+      <hr>
    </main>
    <footer>
         <strong><p>Developed by Muddathir Dawood</p></strong>
