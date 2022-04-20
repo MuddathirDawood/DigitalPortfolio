@@ -6,7 +6,7 @@
 header, footer{
                 min-width: 100%;
                 height: 77px;
-                background-color: blueviolet;
+                background-color: rgb(95, 0, 163);
                 display: inline-flex;
               }
 
@@ -18,6 +18,10 @@ header{
      width: 75px;
      height: 75px;
    }
+
+nav{
+      font-size: large;
+   }   
    
 div{
       margin-top: 15px;
@@ -33,9 +37,14 @@ div{
     padding-left: 15px;
     color: darkorange;
   }
+
+#projects{
+            text-decoration: none;
+         }  
   
 a{
     color: darkorange;
+    text-decoration: none;
  }
  
 #menu ul #menu1{
@@ -45,17 +54,56 @@ a{
 
 .sub-menu1{
 display: none;
+font-size: 18px;
 position: absolute;
-left: 0;
 color: darkorange;
 } 
 
 #menu1:hover .sub-menu1{
                    display: block;
-                   padding: 10px;
+                   padding: 20px;
                    background-color: rgb(198, 43, 0);
                    border-radius: 15px;
-    }  
+    }
+    
+    #menu ul #menu2{
+      position: relative;
+      top: 0;
+   }
+   
+   .sub-menu2{
+   display: none;
+   font-size: 18px;
+   position: absolute;
+   color: darkorange;
+   } 
+   
+   #menu2:hover .sub-menu2{
+                      display: block;
+                      padding: 20px;
+                      background-color: rgb(198, 43, 0);
+                      border-radius: 15px;
+                          }
+                          
+#menu ul #menu3{
+                  position: relative;
+                  top: 0;
+               }
+                        
+.sub-menu3{
+             display: none;
+             font-size: 18px;
+             position: absolute;
+             color: darkorange;
+          } 
+                        
+#menu3:hover .sub-menu3{
+                           display: block;
+                           padding: 20px;
+                           background-color: rgb(198, 43, 0);
+                           border-radius: 15px;
+                           width: 200px;
+                       }                           
    
 main {
         min-height: 300vh;
@@ -75,7 +123,7 @@ main {
         font-size: 100px;
         font-style: oblique;
         font-family: 'Times New Roman', Times, serif;
-        color: rgb(0, 195, 255);
+        color: white;
         text-decoration: rgb(86, 0, 156) overline underline;
         text-decoration-thickness: 5px;
       }            
