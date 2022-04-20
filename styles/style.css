@@ -12,11 +12,15 @@ header, footer{
 
 header{
          background: url(../images/5b129de44c25ee014c31ad03590458d8..png) no-repeat center center/cover;
+         position: sticky;
+         position: -webkit-sticky;
+         top: 0;
       }              
 
 #logo{
      width: 75px;
      height: 75px;
+     border-radius: 15%;
    }
 
 nav{
@@ -39,23 +43,42 @@ div{
   } 
   
 a{
-    color: darkorange;
+    color: rgb(255, 181, 91);
     text-decoration: none;
  }
+
+a:hover{
+         color: rgb(0, 225, 195);
+       }
+       
+#link3{
+         color: darkorange;
+      }       
+
+.git{
+      color: darkblue;
+    }
+   
+.git:hover{
+            font-size: 20px;
+            font-weight: bolder;
+            color: rgb(0, 255, 195);
+          }    
  
 #menu ul #menu1{
    position: relative;
    top: 0;
 }
 
-.sub-menu1{
+.sub-menu{
 display: none;
 font-size: 18px;
 position: absolute;
 color: darkorange;
+list-style: disc;
 } 
 
-#menu1:hover .sub-menu1{
+#menu1:hover .sub-menu{
                    display: block;
                    padding: 20px;
                    background-color: rgb(198, 43, 0);
@@ -67,14 +90,7 @@ color: darkorange;
       top: 0;
    }
    
-   .sub-menu2{
-   display: none;
-   font-size: 18px;
-   position: absolute;
-   color: darkorange;
-   } 
-   
-   #menu2:hover .sub-menu2{
+   #menu2:hover .sub-menu{
                       display: block;
                       padding: 20px;
                       background-color: rgb(198, 43, 0);
@@ -86,14 +102,8 @@ color: darkorange;
                   top: 0;
                }
                         
-.sub-menu3{
-             display: none;
-             font-size: 18px;
-             position: absolute;
-             color: darkorange;
-          } 
                         
-#menu3:hover .sub-menu3{
+#menu3:hover .sub-menu{
                            display: block;
                            padding: 20px;
                            background-color: rgb(198, 43, 0);
@@ -103,8 +113,17 @@ color: darkorange;
    
 main {
         min-height: 300vh;
-        background-color: rgb(171, 150, 42);
+        background-color: darkcyan;
      }
+
+p{
+   font-size: 16.5px;
+   text-shadow: 0 0 50px rgb(0, 0, 0);
+ }
+ 
+#abm{
+      
+    } 
 
 #landingpage{
                background: url(../images/5g6oiUg.png) no-repeat fixed center center/cover ;
@@ -122,6 +141,15 @@ main {
         text-decoration: rgb(86, 0, 156) underline;
         text-decoration-thickness: 5px;
       }
+
+dl{
+   padding: 10px;
+   font-size: 17px;
+  }
+  
+dd{
+      margin-left: 75px;
+  }  
       
 h2{
       text-align: center;
@@ -199,5 +227,5 @@ footer{
           }
           
 hr{
-   border: grey 7.5px groove;
+   border: grey 5px ridge;
   }          
