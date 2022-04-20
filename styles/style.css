@@ -142,6 +142,7 @@ h2{
 .Projectimg{
               width: 800px;
               height: 350px;
+              margin-right: 10px;
            }
 
 sub{
@@ -169,6 +170,10 @@ form{
         text-align: auto;
         display: inline-block;
     }
+  
+.content{
+         padding: 5px;
+       }    
     
 textarea{
             vertical-align: text-top;
