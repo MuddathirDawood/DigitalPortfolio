@@ -6,7 +6,7 @@
 header, footer{
                 min-width: 100%;
                 height: 77px;
-                background-color: rgb(95, 0, 163);
+                background-color: rgb(103, 98, 106);
                 display: inline-flex;
               }
 
@@ -34,7 +34,7 @@ div{
 
 .menulist{
     list-style: none;
-    padding-left: 15px;
+    padding-left: 30px;
     color: darkorange;
   } 
   
@@ -98,7 +98,7 @@ color: darkorange;
                            padding: 20px;
                            background-color: rgb(198, 43, 0);
                            border-radius: 15px;
-                           width: 200px;
+                           width: 190px;
                        }                           
    
 main {
@@ -109,7 +109,7 @@ main {
 #landingpage{
                background: url(../images/5g6oiUg.png) no-repeat fixed center center/cover ;
                 height: 675px;
-               min-width: 100%;
+               min-width: 95%;
                text-align: center;
                padding: 10px; 
             }
@@ -117,12 +117,18 @@ main {
 #lpage{
         padding: 150px;
         font-size: 100px;
-        font-style: oblique;
-        font-family: 'Times New Roman', Times, serif;
+        font-family: 'Titillium Web', sans-serif;
         color: white;
-        text-decoration: rgb(86, 0, 156) overline underline;
+        text-decoration: rgb(86, 0, 156) underline;
         text-decoration-thickness: 5px;
-      }            
+      }
+      
+h2{
+      text-align: center;
+      font-size: 45px;
+      border: 2px black solid;
+      font-family: century;
+  }      
 
 #myphoto{
             border-style: ridge;
@@ -134,8 +140,8 @@ main {
          }        
       
 .Projectimg{
-              width: 900px;
-              height: 450px;
+              width: 800px;
+              height: 350px;
            }
 
 sub{
@@ -152,6 +158,12 @@ label{
         margin-right: auto;
             
      }
+
+.contactbox{
+               border: 6px rgb(175, 0, 0) ridge;
+               margin-right: 60%;
+               padding: 20px;
+           }     
         
 form{
         text-align: auto;
