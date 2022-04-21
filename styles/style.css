@@ -6,26 +6,37 @@
 /* Header */
 
 header, footer{
+                background: url(../images/5b129de44c25ee014c31ad03590458d8..png) no-repeat center center/cover;
                 min-width: 100%;
+                box-shadow: 10px 10px 10px rgba(12, 5, 211, 0.548);
                 height: 77px;
                 background-color: rgb(103, 98, 106);
                 display: inline-flex;
               }
 
 header{
-         background: url(../images/5b129de44c25ee014c31ad03590458d8..png) no-repeat center center/cover;
          position: sticky;
          position: -webkit-sticky;
          top: 0;
-         box-shadow: 10px 10px 10px rgba(12, 5, 211, 0.548);
-      }              
+      }
+      
+footer{
+         color: white;
+         text-shadow: 0 0 10px white;
+      }      
 
 #logo{
      width: 75px;
      height: 75px;
      border-radius: 50%;
-     box-shadow: 0px 0px 9px rgba(255, 255, 255, 0.548);
+     box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.548);
+     transition: transform 2s ease-in-out;
    }
+  
+#logo:hover{
+               transform: rotate(360deg);
+               box-shadow: 0 0 25px white;
+           }   
 
 nav{
       font-size: large;
@@ -38,12 +49,12 @@ div{
 
 #links{
     display: inline-flex;
-    margin-left: 850px;
+    margin-left: 825px;
   }
 
 .menulist{
     list-style: none;
-    padding-left: 30px;
+    padding-left: 20px;
     color: darkorange;
   } 
   
@@ -113,12 +124,10 @@ list-style: disc;
    
 main {
         min-height: 300vh;
-        background-color: darkcyan;
      }
 
 p{
    font-size: 16.5px;
-   text-shadow: 0 0 50px rgb(0, 0, 0);
  }
 
 
@@ -126,7 +135,19 @@ p{
    scroll-behavior: smooth;
    scroll-margin-block-start: 90px;
 }
-      
+
+#about{
+   background: url(../images/Space1.jpg) no-repeat center center/cover; 
+}
+
+#resume{
+   background: url(../images/High_resolution_wallpaper_background_ID_77700394114.png) no-repeat center center/cover;
+
+}
+
+#projects{
+            background: url(../images/High_resolution_wallpaper_background_ID_77700394114.png) no-repeat center center/cover;
+         }      
 
 #landingpage{
                background: url(../images/4k-space-wallpaper-1\ .png) no-repeat fixed center center/cover ;
@@ -152,22 +173,27 @@ p{
         
 #aboutme{
             display: flex;
-            flex-direction: row;
+            flex-direction: row-reverse;
             justify-content: space-between;
             padding: 20px;
         }
     
 #aboutcontent{
                margin-left: 20px;
-               padding: 20px;
+               padding: 50px;
+               margin-top: 100px;
+               font-size: 30px;
             }        
         
 .content{
          padding: 5px;
+         display: inline-flex;
+         margin-left: 250px;
        }
    
 .contentr{
          padding: 5px;
+
        }         
 
 dl{
@@ -182,9 +208,11 @@ dd{
 h2{
       text-align: center;
       font-size: 45px;
-      border: 2px black solid;
+      border: 3px black solid;
       font-family: century;
-      box-shadow: 0px 0px 10px white;
+      box-shadow: 0px 5px 10px black;
+      text-shadow: 5px 5px 8px white;
+      background-color: rgb(68, 6, 123);
   }      
 
 #myphoto{
@@ -209,7 +237,7 @@ h2{
     }
              
 .git:hover{
-                transform: scale(1.4);
+                transform: scale(1.25);
           }           
 
 sub{
