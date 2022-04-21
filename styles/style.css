@@ -23,7 +23,7 @@ header{
 #logo{
      width: 75px;
      height: 75px;
-     border-radius: 15%;
+     border-radius: 50%;
      box-shadow: 0px 0px 9px rgba(255, 255, 255, 0.548);
    }
 
@@ -60,11 +60,7 @@ a{
 
 a:hover{
          color: rgb(0, 225, 195);
-       }
-       
-#link3{
-         color: darkorange;
-      }           
+       }          
  
 #menu ul #menu1{
    position: relative;
@@ -82,8 +78,9 @@ list-style: disc;
 #menu1:hover .sub-menu{
                    display: block;
                    padding: 20px;
-                   background-color: rgb(198, 43, 0);
+                   background-color: rgb(42, 38, 37);
                    border-radius: 15px;
+                   box-shadow: 0 0 10px white;
     }
     
     #menu ul #menu2{
@@ -94,8 +91,9 @@ list-style: disc;
    #menu2:hover .sub-menu{
                       display: block;
                       padding: 20px;
-                      background-color: rgb(198, 43, 0);
+                      background-color: rgb(42, 38, 37);
                       border-radius: 15px;
+                      box-shadow: 0 0 10px white;
                           }
                           
 #menu ul #menu3{
@@ -107,9 +105,10 @@ list-style: disc;
 #menu3:hover .sub-menu{
                            display: block;
                            padding: 20px;
-                           background-color: rgb(198, 43, 0);
+                           background-color: rgb(42, 38, 37);
                            border-radius: 15px;
                            width: 190px;
+                           box-shadow: 0 0 10px white;
                        }                           
    
 main {
@@ -146,6 +145,31 @@ p{
         text-shadow: 0 0 15px white;
       }
 
+#myphoto{
+            width: 375px;
+            height: 550px;
+        }
+        
+#aboutme{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            padding: 20px;
+        }
+    
+#aboutcontent{
+               margin-left: 20px;
+               padding: 20px;
+            }        
+        
+.content{
+         padding: 5px;
+       }
+   
+.contentr{
+         padding: 5px;
+       }         
+
 dl{
    padding: 10px;
    font-size: 17px;
@@ -179,13 +203,13 @@ h2{
            }
 
 .git{
-            color: darkblue;
+            margin-left: 75px;
+            margin-top: 30px;
+            transition: transform 1s ease-in-out;
     }
              
 .git:hover{
-                  font-size: 20px;
-                  font-weight: bolder;
-                  color: rgb(0, 255, 195);
+                transform: scale(1.4);
           }           
 
 sub{
@@ -217,11 +241,7 @@ label{
 form{
         text-align: auto;
         display: inline-block;
-    }
-  
-.content{
-         padding: 5px;
-       }    
+    }      
     
 textarea{
             vertical-align: text-top;
