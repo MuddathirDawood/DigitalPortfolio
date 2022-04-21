@@ -3,6 +3,8 @@
     padding: 0;
  }
 
+/* Header */
+
 header, footer{
                 min-width: 100%;
                 height: 77px;
@@ -15,16 +17,19 @@ header{
          position: sticky;
          position: -webkit-sticky;
          top: 0;
+         box-shadow: 10px 10px 10px rgba(12, 5, 211, 0.548);
       }              
 
 #logo{
      width: 75px;
      height: 75px;
      border-radius: 15%;
+     box-shadow: 0px 0px 9px rgba(255, 255, 255, 0.548);
    }
 
 nav{
       font-size: large;
+      margin-top: 25px;
    }   
    
 div{
@@ -43,9 +48,15 @@ div{
   } 
   
 a{
-    color: rgb(255, 181, 91);
+    color: white;
     text-decoration: none;
+    text-shadow: 0 0 10px white;
  }
+
+#menu1, #menu2, #menu3{
+                         color: white;
+                         text-shadow: 0 0 10px white;
+                      } 
 
 a:hover{
          color: rgb(0, 225, 195);
@@ -53,17 +64,7 @@ a:hover{
        
 #link3{
          color: darkorange;
-      }       
-
-.git{
-      color: darkblue;
-    }
-   
-.git:hover{
-            font-size: 20px;
-            font-weight: bolder;
-            color: rgb(0, 255, 195);
-          }    
+      }           
  
 #menu ul #menu1{
    position: relative;
@@ -74,7 +75,7 @@ a:hover{
 display: none;
 font-size: 18px;
 position: absolute;
-color: darkorange;
+color: black;
 list-style: disc;
 } 
 
@@ -120,26 +121,29 @@ p{
    font-size: 16.5px;
    text-shadow: 0 0 50px rgb(0, 0, 0);
  }
- 
-#abm{
+
+
+#about, #skills, #testemonial, #resume, #projects, #contact{
+   scroll-behavior: smooth;
+   scroll-margin-block-start: 90px;
+}
       
-    } 
 
 #landingpage{
-               background: url(../images/5g6oiUg.png) no-repeat fixed center center/cover ;
+               background: url(../images/4k-space-wallpaper-1\ .png) no-repeat fixed center center/cover ;
                 height: 675px;
                min-width: 95%;
                text-align: center;
                padding: 10px; 
-            }
+            }           
 
 #lpage{
         padding: 150px;
         font-size: 100px;
         font-family: 'Titillium Web', sans-serif;
-        color: white;
-        text-decoration: rgb(86, 0, 156) underline;
+        color: black;
         text-decoration-thickness: 5px;
+        text-shadow: 0 0 15px white;
       }
 
 dl{
@@ -156,6 +160,7 @@ h2{
       font-size: 45px;
       border: 2px black solid;
       font-family: century;
+      box-shadow: 0px 0px 10px white;
   }      
 
 #myphoto{
@@ -173,11 +178,26 @@ h2{
               margin-right: 10px;
            }
 
+.git{
+            color: darkblue;
+    }
+             
+.git:hover{
+                  font-size: 20px;
+                  font-weight: bolder;
+                  color: rgb(0, 255, 195);
+          }           
+
 sub{
       font-size: large;
       vertical-align: middle;
    }
-           
+
+.contact{
+           display: flex;
+           flex-direction: row;
+           justify-content: space-between;   
+        }           
 
 label{
         width: 175px;
@@ -188,9 +208,9 @@ label{
             
      }
 
+
 .contactbox{
                border: 6px rgb(175, 0, 0) ridge;
-               margin-right: 60%;
                padding: 20px;
            }     
         
@@ -224,8 +244,4 @@ footer{
 #Copyright{
             margin-left: 1050px;
             text-align: right; 
-          }
-          
-hr{
-   border: grey 5px ridge;
-  }          
+          }         
