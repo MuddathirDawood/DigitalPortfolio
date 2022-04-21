@@ -181,9 +181,9 @@ p{
             flex-direction: row-reverse;
             justify-content: space-between;
             padding: 20px;
-            font-size: 50px;
-            color: rgb(7, 0, 139);
-            text-shadow: 0 0 5px white;
+            font-size: 75px;
+            color: rgb(139, 7, 0);
+            text-shadow: 0 0 4px white;
         }
     
 #aboutcontent{
