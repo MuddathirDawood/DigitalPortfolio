@@ -6,7 +6,7 @@
 /* Header */
 
 header, footer{
-                background: url(../images/5b129de44c25ee014c31ad03590458d8..png) no-repeat center center/cover;
+                background: url(../images/5b129de44c25ee014c31ad03590458d8..jpg) no-repeat center center/cover;
                 min-width: 100%;
                 box-shadow: 10px 10px 10px rgba(12, 5, 211, 0.548);
                 height: 77px;
@@ -138,20 +138,20 @@ p{
 }
 
 #about{
-   background: url(../images/Space1.jpg) no-repeat center center/cover; 
+   background: url(../images/Space.jpg) no-repeat center center/cover; 
 }
 
 #resume{
-   background: url(../images/High_resolution_wallpaper_background_ID_77700394114.png) no-repeat center center/cover;
+   background: url(../images/High_resolution_wallpaper_background_ID_77700394114.jpg) no-repeat center center/cover;
 
 }
 
 #projects{
-            background: url(../images/High_resolution_wallpaper_background_ID_77700394114.png) no-repeat center center/cover;
+            background: url(../images/High_resolution_wallpaper_background_ID_77700394114.jpg) no-repeat center center/cover;
          }      
 
 #landingpage{
-               background: url(../images/4k-space-wallpaper-1\ .png) no-repeat fixed center center/cover ;
+               background: url(../images/4k-space-wallpaper-1\ .jpg) no-repeat fixed center center/cover ;
                 height: 675px;
                min-width: 95%;
                text-align: center;
@@ -189,7 +189,7 @@ p{
             font-size: 75px;
             color: rgb(139, 7, 0);
             text-shadow: 0 0 4px white;
-        }
+        }      
     
 #aboutcontent{
                margin-left: 20px;
@@ -308,7 +308,7 @@ sub{
    }
 
 #contact{
-   background: url(../images/5b129de44c25ee014c31ad03590458d8..png) no-repeat center center/cover;
+   background: url(../images/5b129de44c25ee014c31ad03590458d8..jpg) no-repeat center center/cover;
 
         }   
 
