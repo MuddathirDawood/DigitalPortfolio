@@ -165,10 +165,14 @@ p{
         text-decoration-thickness: 5px;
         text-shadow: 0 0 15px white;
       }
+     
+      /* About Page */
 
 #myphoto{
             width: 375px;
             height: 550px;
+            border-style: ridge;
+            border: 5px blue;
         }
        
 #abm{
@@ -195,29 +199,101 @@ p{
         
 .content{
          padding: 5px;
-         display: inline-flex;
-         margin-left: 250px;
+         margin-left: 50px;
          color: aliceblue;
          font-size: larger;
        }
 
 #skills{
          list-style: none;
-       }       
+       }
+      
+/* .testcontent{
+   color: aliceblue;
+   width: 200px;
+   height: 400px;
+   border-radius: 5%;
+   margin-left: 20px;
+   padding: 5px;
+   box-shadow: 0 5px 10px white;
+            }
+           
+.container {
+               padding: 2px 16px;
+           }            
+            
+.testcontent:hover #card{
+                  transform: rotateY(180deg);
+               }               
+       
+#card {
+         box-shadow: 0 4px 10px 0 rgba(255, 255, 255, 0.392);
+         transition: transform 1s;
+         position: relative;
+         transform-style: preserve-3d;
+      }
+
+#front, #back{
+         position: absolute;
+         backface-visibility: hidden;
+         -webkit-backface-visibility: hidden;
+         -moz-backface-visibility: hidden;
+       }
+       
+#back{
+         transform: rotateY(180deg);
+         padding: 10px;
+     }       
+
+       
+#card:hover {
+         box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+       } */
+/*        
+#card2 {
+         margin-left: 150px;
+         box-shadow: 0 4px 10px 0 rgba(255, 255, 255, 0.392);
+         transition: transform 1s;
+         position: relative;
+         transform-style: preserve-3d;
+      }
+
+.testcontent2{
+         color: aliceblue;
+         width: 200px;
+         height: 400px;
+         border-radius: 5%;
+         margin-left: 20px;
+         padding: 5px;
+         box-shadow: 0 5px 10px white;
+                  }      
+
+.testcontent2:hover #card2{
+         transform: rotateY(180deg);
+      }      
+
+#front2, #back2{
+         position: absolute;
+         backface-visibility: hidden;
+         -webkit-backface-visibility: hidden;
+         -moz-backface-visibility: hidden;
+       }
+       
+#back2{
+         transform: rotateY(180deg);
+         padding: 10px;
+     }       
+
+       
+#card2:hover {
+         box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+       }        */
+       
    
 .contentr{
          padding: 5px;
          text-shadow: 0 0 5px white;
        }         
-
-dl{
-   padding: 10px;
-   font-size: 17px;
-  }
-  
-dd{
-      margin-left: 75px;
-  }  
       
 h2{
       text-align: center;
@@ -228,11 +304,6 @@ h2{
       text-shadow: 5px 5px 8px white;
       background-color: rgb(68, 6, 123);
   }      
-
-#myphoto{
-            border-style: ridge;
-            border: 5px blue;
-        }
 
 .projects{
             display: inline-flex;
