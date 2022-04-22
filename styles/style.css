@@ -207,7 +207,45 @@ p{
 #skills{
          list-style: none;
        }
-      
+
+#wrapper{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        
+.container{
+            width: 200px;
+            height: 400px;
+            border-radius: 5%;
+            margin: 20px auto;
+          }
+          
+#card{
+         width: 200px;
+         height: 400px;
+         position: relative;
+         transition: transform 1s;
+         transform-style: preserve-3d;
+     }
+     
+.container:hover #card{
+                        transform: rotateY(180deg);
+                      }
+                      
+#front, #back{
+               position: absolute;
+               width: 200px;
+               height: 400px;
+               border-radius: 2%;
+               backface-visibility: hidden;
+               -webkit-backface-visibility: hidden;
+               -moz-backface-visibility: hidden;
+             }
+             
+#back{
+         transform: rotateY(180deg);
+     }             
+
 /* .testcontent{
    color: aliceblue;
    width: 200px;
