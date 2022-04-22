@@ -292,6 +292,16 @@ h2{
                 transform: scale(1.25);
           }           
 
+.netlify{
+            margin-left: 125px;
+            margin-top: 30px;
+            transition: transform 1s ease-in-out;
+        }
+
+.netlify:hover{
+                 transform: scale(1.25);
+              }        
+
 sub{
       font-size: large;
       vertical-align: middle;
