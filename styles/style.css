@@ -8,8 +8,8 @@
 header, footer{
                 background: url(../images/5b129de44c25ee014c31ad03590458d8..jpg) no-repeat center center/cover;
                 min-width: 100%;
-                box-shadow: 10px 10px 10px rgba(12, 5, 211, 0.548);
-                height: 77px;
+                box-shadow: 0 10px 5px rgba(12, 5, 211, 0.548);
+                height: 100px;
                 background-color: rgb(103, 98, 106);
                 display: flex;
                 flex-flow: row wrap;
@@ -164,12 +164,12 @@ p{
             }
             
 #landing{
-   height: 675px;
-   min-width: 95%;
-   display: flex;
-   flex-flow: row wrap;
-   justify-content: center;
-   align-items: center;         
+            height: 675px;
+            min-width: 95%;
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: center;
+            align-items: center;         
         }            
 
 #lpage{
@@ -179,12 +179,12 @@ p{
         color: black;
         text-decoration-thickness: 5px;
         text-shadow: 0 0 15px white;
-        grid-area: a5;
       }
 
 @media(max-width:426px){
          #lpage{
-                  font-size: larger;
+                  font-size: 40px;
+                  padding: 50px;
                }
 }
 
