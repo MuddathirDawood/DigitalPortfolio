@@ -11,7 +11,10 @@ header, footer{
                 box-shadow: 10px 10px 10px rgba(12, 5, 211, 0.548);
                 height: 77px;
                 background-color: rgb(103, 98, 106);
-                display: inline-flex;
+                display: flex;
+                flex-flow: row wrap;
+                justify-content: space-between;
+                align-items: center;
               }
 
 header{
@@ -41,8 +44,15 @@ footer{
 
 nav{
       font-size: large;
-      margin-top: 25px;
-   }   
+      margin-right: 50px;
+   }
+   
+@media(max-width:600px){
+            nav{
+                  font-size: small;
+                  margin-right: 100px;
+               }
+}     
    
 div{
       margin-top: 15px;
@@ -50,7 +60,6 @@ div{
 
 #links{
     display: inline-flex;
-    margin-left: 825px;
   }
 
 .menulist{
@@ -151,12 +160,17 @@ p{
          }      
 
 #landingpage{
-               background: url(../images/4k-space-wallpaper-1\ .jpg) no-repeat fixed center center/cover ;
-                height: 675px;
-               min-width: 95%;
-               text-align: center;
-               padding: 10px; 
-            }           
+               background: url(../images/4k-space-wallpaper-1\ .jpg) no-repeat center center/cover ;
+            }
+            
+#landing{
+   height: 675px;
+   min-width: 95%;
+   display: flex;
+   flex-flow: row wrap;
+   justify-content: center;
+   align-items: center;         
+        }            
 
 #lpage{
         padding: 150px;
@@ -165,7 +179,26 @@ p{
         color: black;
         text-decoration-thickness: 5px;
         text-shadow: 0 0 15px white;
+        grid-area: a5;
       }
+
+@media(max-width:426px){
+         #lpage{
+                  font-size: larger;
+               }
+}
+
+@media(min-width:769px) and (max-width:1025px){
+                     #lpage{
+                              font-size: 75px;
+                           }
+      }
+     
+@media(min-width:426px) and (max-width:769px){
+         #lpage{
+                  font-size: 60px;
+               }
+}      
      
       /* About Page */
 
