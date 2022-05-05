@@ -9,11 +9,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;400;500&family=PT+Sans+Narrow:wght@400;700&family=Titillium+Web&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <title>Digital Portfolio</title>
 </head>
 <body>
    <header id="header">
-       <img src="./images/Logo.png" alt="Muddathir Dawood's Logo" id="logo">
+       <!-- <img src="./images/Logo.png" alt="Muddathir Dawood's Logo" id="logo">
        <nav id="menu">
            <ul id="links">
                <li id="menu1" class="menulist">
@@ -45,7 +46,52 @@
                   </ul>
                </li>
            </ul>
-       </nav>
+       </nav> -->
+
+       <nav class="navbar navbar-expand-lg navbar-dark bg-dark vw-100 fixed-top">
+        <div class="container-fluid justify-content-between">
+          <a class="navbar-brand pb-4 ms-3" href="#"><img src="./images/Logo.png" alt="Muddathir Dawood's Logo" id="logo"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse pb-4" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                    About
+                </a>
+                <ul class="dropdown-menu bg-dark rounded-3">
+                    <li><a class="dropdown-item text-light" href="#">About Me</a></li>
+                    <li><a class="dropdown-item text-light" href="#">Skills</a></li>
+                    <li><a class="dropdown-item text-light" href="#">Testimonials</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                    Resume
+                </a>
+                <ul class="dropdown-menu bg-dark rounded-3">
+                    <li><a class="dropdown-item text-light" href="#">Education</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Projects</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                  Contact
+                </a>
+                <ul class="dropdown-menu bg-dark rounded-3">
+                  <li><a class="dropdown-item text-light" href="#">Contact Me</a></li>
+                  <li><a class="dropdown-item text-light" href="#">Social Media Accounts</a></li>
+                  <li><a class="dropdown-item text-light" href="#">Contact Details</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
    </header>
    <main>
       <section id="landingpage">          
@@ -58,18 +104,80 @@
       <hr>
       <section id="about">
           <h2>About</h2>
-          <figure id="aboutme">
-             <img src="./images/Muddathir (1).JPG" alt="A photo of myself" id="myphoto" class="picture">
-             <div id="aboutcontent">
-                 <h3 id="abm">About Me</h3>
-                 <p>
-                    My name is Muddathir Dawood, I'm 18 years old and I am a web developer in-training that is studying at Life Choices Academy. Ever since I started doing coding in 2019, I grew a passion to do software development and when I started at Life Choices, my goal appeared, which is to become a Full Stack Developer that can do both front-end and back-end. 
-                 </p>
-                 <p>
-                    My hobbies include table tennis, playing video games and a hunger more coding-based knowledge.
-                 </p>
-             </div>        
-          </figure>
+          <div id="aboutm">
+            <h3 id="abm" class="text-center display-4">About Me</h3>
+              <div class="container">
+                  <div class="row">
+                    <div class="col-md-6 text-end mt-3 text-center">
+                        <img src="./images/Muddathir (1).JPG" alt="A photo of myself" class="img-fluid" height="650px">
+                      </div>
+                      <div class="col-md-6 text-start">
+                              <div class="table-responsive-lg">
+                                <table
+                                class="table table-borderless text-start table-dark table-hover table-striped" s>
+                                    <tbody>
+                                        <tr>
+                                            <th scope="row">Name</th>
+                                            <td>:</td>
+                                            <td>Muddathir</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Surname</th>
+                                            <td>:</td>
+                                            <td>Dawood</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Age</th>
+                                            <td>:</td>
+                                            <td>18</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">DOB</th>
+                                            <td>:</td>
+                                            <td>04/12/2003</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Cell Number</th>
+                                            <td>:</td>
+                                            <td>081 049 6540</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Location</th>
+                                            <td>:</td>
+                                            <td>Cape Town</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Languages</th>
+                                            <td>:</td>
+                                            <td>English & Afrikaans</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Hobbies</th>
+                                            <td>:</td>
+                                            <td>Video Games</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row"></th>
+                                            <td></td>
+                                            <td>Anime</td>
+                                        </tr>      
+                                        <tr>
+                                            <th scope="row"></th>
+                                            <td></td>
+                                            <td>Manga</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">A little about me</th>
+                                            <td>:</td>
+                                            <td><p class="lead">I have done a little abit of coding before life choices in High School where I did 3 years of Delphi and that is where i discovered and grew a passion for coding and I am now under tutelage in the one-year coding course at the life choices academy where we will be learning mostly web development</p></td>
+                                        </tr>                            
+                                    </tbody>
+                                </table>
+                                </div>        
+                      </div>
+                  </div>
+              </div>
+          </div>
             <hr>
           <div class="content">
             <h3>Skills</h3>
@@ -84,11 +192,11 @@
 
           <div class="content" id="wrapper">
               <!-- Card 1 -->
-              <div class="container">
+              <div class="containers">
                   <div id="card">
                        <div id="front">
                          <img src="./images/Jared (2).JPG" alt="Avatar" width="100%" class="picture">
-                          <h3>Jared Isaacs</h3>
+                          <h4>Jared Isaacs</h4>
                           <br>
                           <p>Colleague</p>
                        </div>
@@ -100,11 +208,11 @@
                   </div>
               </div>
               <!-- Card 2 -->
-              <div class="container">
+              <div class="containers">
                 <div id="card">
                      <div id="front">
                        <img src="./images/Yaseen (1).JPG" alt="Avatar" width="100%" class="picture">
-                        <h3>Yaseen Jattiem</h3>
+                        <h4>Yaseen Jattiem</h4>
                         <br>
                         <p>Colleague</p>
                      </div>
@@ -116,11 +224,11 @@
                 </div>
              </div>
              <!-- Card 3 -->
-             <div class="container">
+             <div class="containers">
                 <div id="card">
                      <div id="front">
                        <img src="./images/Clayton (3).JPG" alt="Avatar" width="100%" class="picture">
-                        <h3>Clayton Adonis</h3>
+                        <h4>Clayton Adonis</h4>
                         <br>
                         <p>Colleague</p>
                      </div>
@@ -132,11 +240,11 @@
                 </div>
              </div>
              <!-- Card 4 -->
-             <div class="container">
+             <div class="containers">
                 <div id="card">
                      <div id="front">
                        <img src="./images/Daniel (3).JPG" alt="Avatar" width="100%" id="picture">
-                        <h3>Daniel Fredericks</h3>
+                        <h4>Daniel Fredericks</h4>
                         <br>
                         <p>Colleague</p>
                      </div>
@@ -161,49 +269,58 @@
       </section>
       <section id="projects">
           <h2>Projects</h2>
-           <div class="projects">
-               <img src="./images/Screenshot 2022-04-19 111528.png" alt="website project" class="Projectimg">
-               <sub>
-                <p>Name: website</p>
-                <p>HTML5 and CSS3 was used to create the project</p>
-                <p>This project is a compilation of various HTML elements that we just learnt</p>
-                <p>Click On the icons to Move to The Git Repository or Web Link ↓</p>
-                <a href="https://github.com/MuddathirDawood/website" target="blank">
-                    <img src="./images/Git-icon-black.png" width="100px" height="100px"  class="git">
-                </a>
-                <a href="https://muddathir-website.netlify.app/" target="blank">
-                    <img src="./images/link-icon.png" alt="link" 
-                        width="100px" height="100px" class="netlify">
-                </a>    
-               </sub>
-           </div>
-           <div class="projects">
-               <img src="./images/Screenshot 2022-04-19 112210.png" alt="applyingCSS3 project" class="Projectimg">
-               <sub>
-                <p>Name: applyingCSS3</p>
-                <p>HTML5 and CSS3 was used to create the project</p>
-                <p>This project is the basics of CSS3 that was taught to us</p>
-                <p>Click On the icons to Move to The Git Repository or Web Link ↓</p>
-                <a href="https://github.com/MuddathirDawood/applyingCSS3" target="blank">
-                    <img src="./images/Git-icon-black.png" width="100px" height="100px"  class="git">
-                </a>
-                <a href="https://muddathir-applyingcss3.netlify.app/" target="blank">
-                    <img src="./images/link-icon.png" alt="link" width="100px" height="100px" class="netlify">
-                </a>
-               </sub>
-           </div>
-           <div class="projects">
-            <img src="./images/Screenshot 2022-04-20 134125.png" alt="Calculator project" class="Projectimg">
-            <sub>
-             <p>Name: Calculator</p>
-             <p>HTML5 and CSS3 was used to create the project</p>
-             <p>This project is a simple calculator with only design and no functionality yet</p>
-             <p>Click On the icons to Move to The Git Repository or Web Link ↓</p>
-             <a href="https://github.com/MuddathirDawood/Calculator" target="blank"><img src="./images/Git-icon-black.png" width="100px" height="100px"  class="git"></a>
-             <a href="https://muddathir-calculator.netlify.app/" target="blank"><img src="./images/link-icon.png" alt="link" 
-               width="100px" height="100px" class="netlify"></a>
-            </sub>
-        </div>
+          <div class="container-fluid">
+              <div class="row">
+                  <div class="col-md-6">
+                      <img src="./images/Screenshot 2022-04-19 111528.png" alt="website project" class="Projectimg img-fluid">
+                  </div>
+                  <div class="col-md-6 text-black">    
+                       <p>Name: website</p>
+                       <p>HTML5 and CSS3 was used to create the project</p>
+                       <p>This project is a compilation of various HTML elements that we just learnt</p>
+                       <p>Click On the icons to Move to The Git Repository or Web Link ↓</p>
+                       <a href="https://github.com/MuddathirDawood/website" target="blank">
+                           <img src="./images/Git-icon-black.png" width="100px" height="100px"  class="git">
+                       </a>
+                       <a href="https://muddathir-website.netlify.app/" target="blank">
+                           <img src="./images/link-icon.png" alt="link" 
+                               width="100px" height="100px" class="netlify">
+                       </a>    
+                  </div>
+              </div>
+              <div class="row my-4">
+                  <div class="col-md-6">
+                      <img src="./images/Screenshot 2022-05-05 120805.png" alt="applyingCSS3 project" class="Projectimg img-fluid">
+                  </div>
+                  <div class="col-md-6 text-black">
+                       <p>Name: bootstrap_page_exercise</p>
+                       <p>HTML5, CSS3 and Bootstrap was used to create the project</p>
+                       <p>This project is the combination of HTML5 and CSS3, it consists mostly of Bootstrap</p>
+                       <p>Click On the icons to Move to The Git Repository or Web Link ↓</p>
+                       <a href="https://github.com/MuddathirDawood/bootstrap_page_exercise" target="blank">
+                           <img src="./images/Git-icon-black.png" width="100px" height="100px"  class="git">
+                       </a>
+                       <a href="https://bootstrap-page-exercise.netlify.app/" target="blank">
+                           <img src="./images/link-icon.png" alt="link" width="100px" height="100px" class="netlify">
+                       </a>
+                  </div>
+              </div>
+              <div class="row my-4">
+                  <div class="col-md-6">
+                   <img src="./images/Screenshot 2022-04-20 134125.png" alt="Calculator project" class="Projectimg img-fluid">
+                  </div>
+                  <div class="col-md-6 text-black">
+                    <p>Name: Calculator</p>
+                    <p>HTML5 and CSS3 was used to create the project</p>
+                    <p>This project is a simple calculator with only design and no functionality yet</p>
+                    <p>Click On the icons to Move to The Git Repository or Web Link ↓</p>
+                    <a href="https://github.com/MuddathirDawood/Calculator" target="blank"><img src="./images/Git-icon-black.png" width="100px" height="100px"  class="git"></a>
+                    <a href="https://muddathir-calculator.netlify.app/" target="blank"><img src="./images/link-icon.png" alt="link" 
+                      width="100px" height="100px" class="netlify"></a>
+                  </div>
+
+              </div>
+          </div>
            <br> 
       </section>
       <section id="contact">
@@ -251,5 +368,9 @@
         <strong><p>Developed by Muddathir Dawood</p></strong>
         <strong><p id="Copyright">Copyright &copy; 2022</p></strong>
    </footer> 
+
+
+
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>   
 </body>
 </html>
